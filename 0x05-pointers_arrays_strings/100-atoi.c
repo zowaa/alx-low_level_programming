@@ -4,10 +4,11 @@
  *
  * Return: The calculated value
  */
-#include <stdio.h>
+
 int _atoi(char *s)
 {
-	int	i, nb, sign;
+	int	i, sign;
+	unsigned int nb;
 
 	i = 0;
 	nb = 0;
